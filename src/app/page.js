@@ -1,5 +1,11 @@
+import Feed from "@/components/Feed";
+
 function Home() {
-  return <div className="">Home</div>;
+  return (
+    <>
+      <Feed />
+    </>
+  );
 }
 
 export default Home;
